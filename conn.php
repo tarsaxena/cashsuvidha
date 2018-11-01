@@ -4,7 +4,7 @@
 
          $dbhost = '13.127.98.139';
          $dbuser = 'root';
-         $dbpass = 'jmd@111';
+         $dbpass = '';
          $conn = mysql_connect($dbhost, $dbuser, $dbpass);
          if(! $conn ) {
             die('Could not connect: ' . mysql_error());
@@ -13,3 +13,4 @@
          mysql_close($conn);
 
 ?>
+
